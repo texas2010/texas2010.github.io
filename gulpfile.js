@@ -1,6 +1,6 @@
 // my Config
 var config = {
-  "working_path": "./docs",
+  "working_path": "./",
   "default": {
     "server": "static"
   },
