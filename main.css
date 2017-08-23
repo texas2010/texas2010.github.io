@@ -1,7 +1,46 @@
 body {
-  padding-top: 10px;
+  background-color: white;
+  margin-bottom: 100px;
+}
+ul {
+  padding-left: 18px;
+}
+
+hr {
+  border-top: 2px solid #337ab7;
 }
 
 .text-white {
   color: white;
+}
+
+nav .navbar-brand {
+  margin-right: 15px;
+}
+
+nav .navbar-header a:hover,
+nav .nav li a:hover {
+  background-color: white;
+  color: #337ab7;
+}
+
+#projects {
+  margin: 20px 0;
+}
+
+.thumbnail {
+  background-color: rgba(51, 122, 183, 0.3);
+  border: 1px solid white;
+  height: 400px;
+}
+.thumbnail img {
+  padding-top: 10px;
+}
+.thumbnail .caption h3 {
+  margin-top: 0;
+}
+
+.source-button {
+  margin-top: 50px;
+  margin-left: 30px;
 }
