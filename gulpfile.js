@@ -1,6 +1,6 @@
 // my Config
 var config = {
-  "working_path": "./",
+  "baseDir": "./",
   "default": {
     "server": "static"
   },
@@ -17,14 +17,14 @@ var browserSync  = require('browser-sync');
 
 // CSS Task
 gulp.task('css', function() {
-  return gulp.src(config.working_path + '/' + config.css.src);
+  return gulp.src(config.baseDir + '/' + config.css.src);
 });
 
 // Static Task
 gulp.task('static', function() {
   return browserSync({
     server: {
-      baseDir: config.working_path
+      baseDir: config.baseDir
     },
     open: false
   });
@@ -32,8 +32,8 @@ gulp.task('static', function() {
 
 // Watch Task
 gulp.task('watch', function() {
-  gulp.watch(config.working_path + '/' + config.html.src).on("change", browserSync.reload);
-  gulp.watch(config.working_path + '/' + config.css.src, ['css', browserSync.reload]);
+  gulp.watch(config.baseDir + '/' + config.html.src).on("change", browserSync.reload);
+  gulp.watch(config.baseDir + '/' + config.css.src, ['css', browserSync.reload]);
 });
 
 // Default Task
