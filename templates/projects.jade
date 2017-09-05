@@ -1,0 +1,13 @@
+// projects
+.row
+    .col-sm-12
+        h1#projects.text-center.text-primary Projects
+    each project in myProjects
+        .col-sm-6.col-md-4.col-lg-3
+            a(href='https://texas2010.github.io/#{project.link}', target='_blank')
+                .thumbnail
+                    img(src='/img/#{project.link}.png', alt='picture of #{project.title} project')
+                    .caption
+                        h3.text-center #{project.title}
+                        p.text-center #{project.skills}
+// END projects
