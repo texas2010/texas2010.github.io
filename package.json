@@ -20,9 +20,18 @@
   },
   "homepage": "https://github.com/texas2010/texas2010.github.io#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "beeper": "^1.1.1",
     "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
     "gulp-data": "^1.2.1",
-    "gulp-jade": "^1.1.0"
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
   }
 }
