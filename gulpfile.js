@@ -15,7 +15,7 @@ var paths = {
     json: './myconfig.json',
     src: ['./index.jade'],
     dest: './',
-    watch: ['templates/**/*.jade']
+    watch: ['**/*.jade']
   },
   scss: {
     src: ['scss/*.scss'],
