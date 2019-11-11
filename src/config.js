@@ -20,20 +20,20 @@ const config = {
   projects: [
     {
       title: 'Tribute',
-      imgLink: 'freecodecamp_tribute.png',
-      projectLink: 'https://texas2010.github.io/freecodecamp_tribute',
+      imgLink: 'tribute.png',
+      projectLink: 'https://texas2010.github.io/tribute',
       langs: 'HTML, CSS, and Bootstrap-V3'
     },
     {
       title: 'Random Quote Machine',
-      imgLink: 'freecodecamp_random_quote_machine.png',
-      projectLink: 'https://texas2010.github.io/freecodecamp_random_quote_machine',
+      imgLink: 'random_quote_machine.png',
+      projectLink: 'https://texas2010.github.io/random_quote_machine',
       langs: 'HTML, CSS, JavaScript and Materialize'
     },
     {
       title: 'Local Weather',
-      imgLink: 'freecodecamp_weather.png',
-      projectLink: 'https://texas2010.github.io/freecodecamp_weather',
+      imgLink: 'weather.png',
+      projectLink: 'https://texas2010.github.io/weather',
       langs: 'HTML, CSS, JavaScript and Bulma'
     }
   ]
