@@ -33,7 +33,7 @@ const config = {
     {
       title: 'Local Weather',
       imgLink: 'weather.png',
-      projectLink: 'https://texas2010.github.io/weather',
+      projectLink: 'https://texas2010.github.io/local_weather',
       langs: 'HTML, CSS, JavaScript and Bulma'
     }
   ]
