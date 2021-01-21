@@ -1,34 +1,38 @@
 {
   "name": "texas2010.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "develop": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/texas2010/texas2010.github.io.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "Lance - texas2010",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/texas2010/texas2010.github.io/issues"
-  },
-  "homepage": "https://github.com/texas2010/texas2010.github.io#readme",
-  "dependencies": {
-    "babel-cli": "6.26.0",
-    "babel-loader": "7.1.4",
-    "babel-plugin-transform-object-rest-spread": "6.26.0",
-    "babel-polyfill": "6.26.0",
-    "babel-preset-env": "1.6.1",
-    "live-server": "1.2.0",
-    "webpack": "4.5.0",
-    "webpack-cli": "2.0.14",
-    "webpack-dev-server": "3.1.10"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
