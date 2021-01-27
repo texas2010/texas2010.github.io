@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 export default class index extends Component {
     render() {
         return (
-            <Container>
+            <Container className="mb-5">
                 <Row className="justify-content-center mb-3">
                     <Col>
                         <h1 id="contact" className="text-center text-primary">Contact</h1>
