@@ -1,9 +1,19 @@
 .project-card {
   border-width: 0px;
   padding: 4px;
+  width: 328px;
 }
 
 .project-card:hover {
   border-width: 4px;
   padding: 0px;
+}
+
+.project-card a:hover {
+  color: white;
+}
+
+.project-card img {
+  width: 320px;
+  height: 320px;
 }

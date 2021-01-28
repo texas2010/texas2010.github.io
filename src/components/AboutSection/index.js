@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import './style.css'
 
 export default class index extends Component {
     constructor() {
@@ -26,9 +27,9 @@ export default class index extends Component {
             return (
                 <Col key={title}>
                     <hr className="border d-md-none" />
-                    <p className="text-white text-center">{title}</p>
+                    <p className="h4 text-white text-center">{title}</p>
                     <div className="d-flex justify-content-center">
-                        <ul>
+                        <ul className="about-list">
                             {body.map((item) => (<li key={item} className="text-white">{item}</li>))}
                         </ul>
                     </div>
@@ -42,7 +43,7 @@ export default class index extends Component {
                         <h1 id="about" className="text-center text-primary">About</h1>
                     </Col>
                 </Row>
-                <Row className="justify-content-center mb-1">
+                <Row className="justify-content-center mb-2">
                     <Col md={8}>
                         <p className="text-center lead text-white">
                             I am self-taught programmer who loves to teach programming whose aim is to become a front end or back end web developer.

@@ -3,10 +3,12 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
+import './style.css'
+
 class NavBar extends Component {
     render() {
         return (
-            <Navbar expand="lg" className="bg-primary text-white mb-4">
+            <Navbar expand="lg" className="nav-bg text-white mb-4">
                 <Container>
                     <Navbar.Brand href="/" className="text-white">Lance</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-white">
