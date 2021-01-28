@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "title": "Recipe Box",
+      "body": "",
+      "skills": "HTML, CSS, JavaScript, React and React Router",
+      "imgLink": "recipe-box.png",
+      "projectLink": "https://texas2010.github.io/recipe-box/"
+    },
+    {
+      "title": "Markdown Previewer",
+      "body": "",
+      "skills": "HTML, CSS, JavaScript, Bootstrap-V4 and React",
+      "imgLink": "markdown-previewer.png",
+      "projectLink": "https://texas2010.github.io/markdown_previewer"
+    },
+    {
+      "title": "Wikipedia Viewer",
+      "body": "",
+      "skills": "HTML, CSS, JavaScript, and Bulma",
+      "imgLink": "wikipedia-viewer.png",
+      "projectLink": "https://texas2010.github.io/wikipedia-viewer/"
+    },
+    {
+      "title": "25 + 5 Clock",
+      "body": "",
+      "skills": "HTML, CSS, JavaScript and React",
+      "imgLink": "countdown-clock.png",
+      "projectLink": "https://texas2010.github.io/the-countdown-clock/"
+    },
+    {
+      "title": "JavaScript Calculator",
+      "body": "",
+      "skills": "HTML, CSS, JavaScript and Bootstrap-V4",
+      "imgLink": "javascript-calculator.png",
+      "projectLink": "https://texas2010.github.io/javascript-calculator/"
+    },
+    {
+      "title": "Drum Machine",
+      "body": "",
+      "skills": "HTML, CSS, JavaScript",
+      "imgLink": "drum-machine.png",
+      "projectLink": "https://texas2010.github.io/drum-machine/"
+    }
+  ],
+  "template": {
+    "title": "",
+    "body": "",
+    "skills": "",
+    "imgLink": "",
+    "projectLink": ""
+  }
+}
