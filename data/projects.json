@@ -2,27 +2,27 @@
   "projects": [
     {
       "title": "Recipe Box",
-      "body": "",
+      "body": "Store their favorite Recipes",
       "skills": "HTML, CSS, JavaScript, React and React Router",
       "imgLink": "recipe-box.png",
       "projectLink": "https://texas2010.github.io/recipe-box/"
     },
     {
       "title": "Markdown Previewer",
-      "body": "",
+      "body": "Convert markdown to preview",
       "skills": "HTML, CSS, JavaScript, Bootstrap-V4 and React",
       "imgLink": "markdown-previewer.png",
       "projectLink": "https://texas2010.github.io/markdown_previewer"
     },
     {
       "title": "Wikipedia Viewer",
-      "body": "",
+      "body": "Search and find result through Wikipedia API",
       "skills": "HTML, CSS, JavaScript, and Bulma",
       "imgLink": "wikipedia-viewer.png",
       "projectLink": "https://texas2010.github.io/wikipedia-viewer/"
     },
     {
-      "title": "25 + 5 Clock",
+      "title": "25 + 5 Clock (Pomodoro)",
       "body": "",
       "skills": "HTML, CSS, JavaScript and React",
       "imgLink": "countdown-clock.png",
