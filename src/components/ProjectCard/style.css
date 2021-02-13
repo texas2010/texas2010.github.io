@@ -1,12 +1,5 @@
 .project-card {
-  border-width: 0px;
-  padding: 4px;
-  width: 328px;
-}
-
-.project-card:hover {
-  border-width: 4px;
-  padding: 0px;
+  width: 322px;
 }
 
 .project-card a:hover {
