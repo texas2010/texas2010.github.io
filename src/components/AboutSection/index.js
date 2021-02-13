@@ -13,11 +13,11 @@ export default class index extends Component {
                 },
                 {
                     title: 'Libraries/Frameworks',
-                    body: ['Bootstrap', 'React', 'Node.js', 'Express.js']
+                    body: ['Bootstrap', 'React', 'Node.js', 'Express.js', 'Mongoose']
                 },
                 {
                     title: 'Tools',
-                    body: ['Visual Studio Code', 'Git', 'Terminal', 'Gulp.js']
+                    body: ['Visual Studio Code', 'Git', 'Terminal', 'Gulp.js', 'Webpack']
                 }
             ]
         }
