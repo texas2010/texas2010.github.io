@@ -27,10 +27,10 @@ export default class index extends Component {
             return (
                 <Col key={title}>
                     <hr className="border d-md-none" />
-                    <p className="h4 text-white text-center">{title}</p>
+                    <p className="h4 text-color text-center">{title}</p>
                     <div className="d-flex justify-content-center">
                         <ul className="about-list">
-                            {body.map((item) => (<li key={item} className="text-white">{item}</li>))}
+                            {body.map((item) => (<li key={item} className="text-color">{item}</li>))}
                         </ul>
                     </div>
                 </Col>
@@ -45,7 +45,7 @@ export default class index extends Component {
                 </Row>
                 <Row className="justify-content-center mb-2">
                     <Col md={8}>
-                        <p className="text-center lead text-white">
+                        <p className="text-center lead text-color">
                             I am self-taught programmer who loves to teach programming whose aim is to become a front end or back end web developer.
                     </p>
                     </Col>

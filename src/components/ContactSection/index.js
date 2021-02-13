@@ -22,7 +22,7 @@ export default class index extends Component {
                             <FontAwesomeIcon icon={faGithub} /> Github/texas2010</a>
                     </Col>
                     <Col xs={12} md className="text-center mb-2">
-                        <a className="btn btn-outline-light"
+                        <a className="btn btn-outline-dark"
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.freecodecamp.org/texas2010"

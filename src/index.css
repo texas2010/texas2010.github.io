@@ -1,4 +1,19 @@
 body {
-  background-color: #333;
   min-height: 100vh;
+}
+
+.dark body {
+  background-color: #333;
+}
+
+.light body {
+  background-color: #fff;
+}
+
+.dark .text-color {
+  color: #fff;
+}
+
+.light .text-color {
+  color: #000;
 }

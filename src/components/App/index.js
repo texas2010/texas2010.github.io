@@ -15,7 +15,7 @@ export default class App extends Component {
                 <ContactSection />
                 <Container className="mb-5">
                     <Row>
-                        <p className="mx-auto text-white">&copy; {new Date().getFullYear()} texas2010</p>
+                        <p className="mx-auto text-color">&copy; {new Date().getFullYear()} texas2010</p>
                     </Row>
                 </Container>
             </div>

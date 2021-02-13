@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-scroll"
 
+import ThemeModeToggle from '../ThemeModeToggle';
+
 import './style.css'
 
 class NavBar extends Component {
@@ -29,6 +31,7 @@ class NavBar extends Component {
                                 to="contact" smooth={true}
                                 duration={1000}
                                 className="nav-link text-white">Contact</Link>
+                            <ThemeModeToggle className='nav-link text-white' />
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
