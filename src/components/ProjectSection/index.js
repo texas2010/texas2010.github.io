@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import { Container, Row, Col, CardDeck } from 'react-bootstrap'
 import ProjectCard from '../ProjectCard';
 
-const range = (num) => [...Array(num).keys()]
-
-
 export default class index extends Component {
     constructor(props) {
         super(props)
