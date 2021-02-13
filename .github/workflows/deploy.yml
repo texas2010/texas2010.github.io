@@ -18,8 +18,8 @@ jobs:
           node-version: 14.x
 
       - name: Prepare and deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git config --global user.email "9701609+texas2010@users.noreply.github.com"
+          git config user.name "texas2010"
           npm install
           npm run deploy
