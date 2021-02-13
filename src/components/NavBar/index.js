@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-scroll"
 
 import './style.css'
 
@@ -16,10 +17,18 @@ class NavBar extends Component {
                     </Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                            <Nav.Link href="/" className="text-white">Home</Nav.Link>
-                            <Nav.Link href="#about" className="text-white">About</Nav.Link>
-                            <Nav.Link href="#projects" className="text-white">Projects</Nav.Link>
-                            <Nav.Link href="#contact" className="text-white">Contact</Nav.Link>
+                            <Link href="/" className="nav-link text-white">Home</Link>
+                            <Link href="#about"
+                                to="about" smooth={true}
+                                className="nav-link text-white">About</Link>
+                            <Link href="#projects"
+                                to="projects" smooth={true}
+                                duration={600}
+                                className="nav-link text-white">Projects</Link>
+                            <Link href="#contact"
+                                to="contact" smooth={true}
+                                duration={1000}
+                                className="nav-link text-white">Contact</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
