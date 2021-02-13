@@ -18,6 +18,8 @@ jobs:
           node-version: 14.x
 
       - name: Prepare and deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install
           npm run deploy
