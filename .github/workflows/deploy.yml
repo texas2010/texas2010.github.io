@@ -17,9 +17,13 @@ jobs:
         with:
           node-version: 14.x
 
-      - name: Prepare and deploy
+      - name: Install and Build
         run: |
-          git config --global user.email "9701609+texas2010@users.noreply.github.com"
-          git config user.name "texas2010"
           npm install
-          npm run deploy
+          npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: live
+          folder: build
