@@ -1,3 +1,8 @@
 .nav-bg {
   background: #007bffd4;
 }
+
+#basic-navbar-nav a::before,
+#basic-navbar-nav button::before {
+  background: #fff;
+}

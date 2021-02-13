@@ -14,7 +14,7 @@ export default class index extends Component {
                 </Row>
                 <Row className="justify-content-center">
                     <Col xs={12} md className="text-center mb-2">
-                        <a className="btn btn-outline-light"
+                        <a className="btn text-color border rounded-pill hvr-underline-from-center"
                             target="_blank"
                             rel="noreferrer"
                             href="https://github.com/texas2010"
@@ -22,7 +22,7 @@ export default class index extends Component {
                             <FontAwesomeIcon icon={faGithub} /> Github/texas2010</a>
                     </Col>
                     <Col xs={12} md className="text-center mb-2">
-                        <a className="btn btn-outline-dark"
+                        <a className="btn text-color border rounded-pill hvr-underline-from-center"
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.freecodecamp.org/texas2010"
