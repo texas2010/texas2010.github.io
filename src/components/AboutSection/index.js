@@ -9,7 +9,7 @@ export default class index extends Component {
             aboutList: [
                 {
                     title: 'Languages',
-                    body: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
+                    body: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'MongoDB']
                 },
                 {
                     title: 'Libraries/Frameworks',
