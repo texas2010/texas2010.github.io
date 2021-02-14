@@ -25,6 +25,8 @@ export default class index extends Component {
                 document.documentElement.classList.replace('dark', 'light')
             } else if (document.documentElement.classList.contains('light')) {
                 document.documentElement.classList.replace('light', 'dark')
+            } else {
+                document.documentElement.classList.add('dark')
             }
         })
     }
