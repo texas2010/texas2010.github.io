@@ -1,0 +1,2 @@
+body{min-height:100vh}.dark body{background-color:#333}.light body{background-color:#fff}.dark .text-color{color:#fff}.light .text-color{color:#000}.nav-bg{background:rgba(0,123,255,.8313725490196079)}#basic-navbar-nav a:before,#basic-navbar-nav button:before{background:#fff}.about-list{margin:auto;padding:0;text-align:center;list-style:none}.project-card{width:322px}.project-card a:hover{color:#fff}.project-card img{width:320px;height:320px}.project-card a{min-height:100%}
+/*# sourceMappingURL=main.d30965fd.chunk.css.map */
