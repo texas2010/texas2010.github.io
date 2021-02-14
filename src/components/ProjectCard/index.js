@@ -12,8 +12,8 @@ export default class index extends Component {
             skills
         } = this.props.project
         return (
-            <Card style={{ flex: 'none' }} bg="dark" text="white" className="mb-4 project-card hvr-sweep-to-right">
-                <a href={projectLink}>
+            <Card style={{ flex: 'none' }} bg="dark" text="white" className="mb-4 project-card">
+                <a href={projectLink} className="hvr-sweep-to-right">
                     <Card.Img variant="top" src={`/images/${imgLink}`} alt={title} />
                     <Card.Body className="">
                         <Card.Title className='text-white'>{title}</Card.Title>
