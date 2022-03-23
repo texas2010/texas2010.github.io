@@ -1,46 +1,53 @@
 {
   "projects": [
     {
+      "title": "Mini Twitch",
+      "body": "User could check anyone's following on their twitch account. or see who is online on the stream.",
+      "skills": "Pug, Css, JavaScript, and Node.js/Express.js",
+      "imgLink": "mini-twitch.png",
+      "projectLink": "http://mini-twitch.texas2010.com/"
+    },
+    {
       "title": "Recipe Box",
       "body": "Store their favorite Recipes",
       "skills": "HTML, CSS, JavaScript, React and React Router",
       "imgLink": "recipe-box.png",
-      "projectLink": "https://texas2010.github.io/recipe-box/"
+      "projectLink": "https://www.texas2010.com/recipe-box/"
     },
     {
       "title": "Markdown Previewer",
       "body": "Convert markdown to preview",
       "skills": "HTML, CSS, JavaScript, Bootstrap-V4 and React",
       "imgLink": "markdown-previewer.png",
-      "projectLink": "https://texas2010.github.io/markdown_previewer"
+      "projectLink": "https://www.texas2010.com/markdown_previewer"
     },
     {
       "title": "Wikipedia Viewer",
       "body": "Search and find result through Wikipedia API",
       "skills": "HTML, CSS, JavaScript, and Bulma",
       "imgLink": "wikipedia-viewer.png",
-      "projectLink": "https://texas2010.github.io/wikipedia-viewer/"
+      "projectLink": "https://www.texas2010.com/wikipedia-viewer/"
     },
     {
       "title": "25 + 5 Clock (Pomodoro)",
       "body": "",
       "skills": "HTML, CSS, JavaScript and React",
       "imgLink": "countdown-clock.png",
-      "projectLink": "https://texas2010.github.io/the-countdown-clock/"
+      "projectLink": "https://www.texas2010.com/the-countdown-clock/"
     },
     {
       "title": "JavaScript Calculator",
       "body": "",
       "skills": "HTML, CSS, JavaScript and Bootstrap-V4",
       "imgLink": "javascript-calculator.png",
-      "projectLink": "https://texas2010.github.io/javascript-calculator/"
+      "projectLink": "https://www.texas2010.com/javascript-calculator/"
     },
     {
       "title": "Drum Machine",
       "body": "",
       "skills": "HTML, CSS, JavaScript",
       "imgLink": "drum-machine.png",
-      "projectLink": "https://texas2010.github.io/drum-machine/"
+      "projectLink": "https://www.texas2010.com/drum-machine/"
     }
   ],
   "template": {
