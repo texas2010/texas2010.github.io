@@ -41,13 +41,6 @@
       "skills": "HTML, CSS, JavaScript and Bootstrap-V4",
       "imgLink": "javascript-calculator.png",
       "projectLink": "https://www.texas2010.com/javascript-calculator/"
-    },
-    {
-      "title": "Drum Machine",
-      "body": "",
-      "skills": "HTML, CSS, JavaScript",
-      "imgLink": "drum-machine.png",
-      "projectLink": "https://www.texas2010.com/drum-machine/"
     }
   ],
   "template": {
